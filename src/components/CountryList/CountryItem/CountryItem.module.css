@@ -1,0 +1,38 @@
+.country {
+    border-radius: 0.5rem;
+    background-color: var(--colors_ui_base);
+    box-shadow: var(--colors_shadow);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.country__img {
+  display: block;  
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: var(--colors_shadow);
+}
+
+.card__body {
+    padding: 1rem 1.5rem 2rem;
+}
+
+.card__title {
+    margin: 0;
+    font-size: var(--fs_md);
+    font-weight: var(--fw_bold);
+}
+
+.card__list {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0 0;
+}
+
+.card__item {
+    font-size: var(--fs_sm);
+    line-height: 1.5;
+    font-weight: var(--fw_light);
+}

@@ -1,0 +1,36 @@
+.header {
+    box-shadow: var(--colors_shadow);
+    background-color: var(--colors_ui_base);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.header__title {
+    color: var(--colors_text);
+    font-size: var(--fs_sm);
+    text-decoration: none;
+    font-weight: var(--fw_bold);
+}
+
+.header__themeSwitcher {
+    color: var(--colors_text);
+    font-size: var(--fs_sm);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.header__themeTitle {
+    margin-left: 0.75rem;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }

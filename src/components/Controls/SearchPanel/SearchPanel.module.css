@@ -1,0 +1,25 @@
+.inputContainer {
+    background-color: var(--colors_ui_base);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--colors_shadow);
+    border-radius: 0.5rem;
+}
+
+@media(min-width: 776px) {
+    .inputContainer {
+        margin-bottom: 0;
+        width: 280px;
+    }
+}
+
+.input {
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    color: var(--colors_text);
+    background-color: var(--colors_ui_base);
+}

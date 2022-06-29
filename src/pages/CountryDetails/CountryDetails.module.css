@@ -1,0 +1,13 @@
+.backButton {
+    padding: 0 1rem;
+    background-color: var(--colors_ui_base);
+    box-shadow: var(--colors_shadow);
+    line-height: 2.5;
+    border-radius: 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--colors_text);
+    cursor: pointer;
+}
